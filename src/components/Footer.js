@@ -26,31 +26,21 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Resources</h4>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white transition">Blog</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition">Documentation</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition">Support</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition">FAQ</a></li>
-            </ul>
-          </div>
-
+ 
           {/* Social Links */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition">
+              <a href="https://facebook.com" className="text-gray-400 hover:text-white transition">
                 <FaFacebook size={24} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition">
+              <a href="https://x.com/" className="text-gray-400 hover:text-white transition">
                 <FaTwitter size={24} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition">
+              <a href="https://www.linkedin.com/feed/" className="text-gray-400 hover:text-white transition">
                 <FaLinkedin size={24} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition">
+              <a href="https://github.com/dashboard" className="text-gray-400 hover:text-white transition">
                 <FaGithub size={24} />
               </a>
             </div>
